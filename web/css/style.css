@@ -45,18 +45,21 @@ h1.b1,h2.b2,h3.b3 {
 .banner_head_top {
     background: #000;
     padding:20px 44px;
-	margin-top:1em;
+	margin-top:1em; 
+    border-style: solid;
+    border-color: #00963f;
+   
 }
 .logo h1 a{
 	display:inline-block;
-	color:#0dc5dd;
+	color:#00963f;
 	font-size:1.1em;
 	font-weight:700;
 	font-family: 'Titillium Web', sans-serif;
 	text-decoration:none;
 }
 .logo h1 a span{
-	color:#ffdd57;
+	color:white;
 }
 .headr-right{
 	text-align:right;
@@ -80,7 +83,7 @@ h1.b1,h2.b2,h3.b3 {
     font-size: 1em;
 }
 .details ul li a:hover{
-	color: #ffdd57;
+	color:#00963f;
 }
 .glyphicon-earphone:before, .glyphicon-envelope:before {
     font-size: 13px;
@@ -100,12 +103,12 @@ h1.b1,h2.b2,h3.b3 {
 	font-family: 'Titillium Web', sans-serif;
 	font-weight:600;
 	font-size:1em;
-	color:#fff!important;
+	color:#00963f!important;
 	border-bottom:1px solid #000;
 	margin-right:20px;
 }
 .navbar-nav > li > a:hover{
-	color:#0dc5dd!important;
+	color:white !important;
 	border-bottom:1px solid #fff!important;
 }
 .navbar{
@@ -123,7 +126,7 @@ h1.b1,h2.b2,h3.b3 {
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     background-color: transparent;
-	color:#0dc5dd!important;
+	color:white!important;
 	border-bottom:1px solid #fff!important;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
@@ -218,7 +221,7 @@ h1.b1,h2.b2,h3.b3 {
 .welcome-info h3{
     font-size:3em;
     margin: 0;
-    color: #0dc5dd;
+    color:#00963f ;
   font-family: 'Titillium Web', sans-serif;
   font-weight:600;
     text-align: center;
@@ -226,7 +229,7 @@ h1.b1,h2.b2,h3.b3 {
 .welcome-info h4{
     font-size: 1.3em;
     font-weight: 600;
-    color: #ffdd57;
+    color: cadetblue;
     margin: 1.5em 0;
 }
 .welcome-info p{
@@ -263,7 +266,7 @@ h1.b1,h2.b2,h3.b3 {
     margin-right: 5%;
 }
 .info p {
-    color: #0dc5dd;
+    color: #00963f;
     font-size:1.8em;
     margin: 0;
     line-height: 1.4em;
@@ -319,20 +322,21 @@ h1.b1,h2.b2,h3.b3 {
 	line-height:1.8em;
 }
 .more{	
-	background:#ffdd57;
+	background:#00963f;
 	padding:10px 16px;
 }
 .more a{
-    color: #474747;
+    color: #fff;
     display: inline-block;
-    border: 1px solid #474747;
+    border: 1px solid #666666;
     padding: 6px 16px;
     font-size: 0.8em;
-    text-decoration: none;
+    text-decoration: inherit;
+    background-color: #666666;
 }
 .more a:hover{
-	color:#fff;
-	border:1px solid #fff;
+	color:lawngreen;
+	border:1px solid #666666;
 }
 .grid1{
 	border:1px solid #E4E4E4;
@@ -467,11 +471,11 @@ h5.arc a:hover{
 	margin-top:0.7em;
 }
 .tab-post-info p a {
-    color:#ffdd57;
+    color:#00963f;
     text-decoration: none;
 }
 .tab-post-info p a:hover{
-	color:#0dc5dd;
+	color:#00963f;
 }
 .category{
 	margin-top:4em;
@@ -532,7 +536,7 @@ a.list-group-item:hover {
 .news-ltr h4 ,.ftr-grid h3, .ftr-info h3{
     font-size: 1.6em;
     font-family: 'Titillium Web', sans-serif;
-    color: #ffdd57;
+    color: #00963f;
     margin: 0em 0em 0.5em 0em;
 }
 .news-ltr p {
@@ -560,7 +564,7 @@ a.list-group-item:hover {
     border: 2px solid #0dc5dd;
     outline: none;
     padding: 8px 12px;
-    background: #0dc5dd;
+    background: #00963f;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
